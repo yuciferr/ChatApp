@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- sign_up strings -->
+
+    <string name="app_name">ChatApp</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="user_name_string">User Name</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Password</string>
+    <string name="i_have_an_account_string">I Have An Account</string>
+    <string name="sign_in_with_google_string">Sign in with Google</string>
+    <string name="sign_up_ek3_string">Sign up</string>
+    <string name="flukey_string">Flukey</string>
+    <string name="email_ek1_string">Email</string>
+    <string name="password_ek1_string">Password</string>
+    <string name="create_a_new_account_string">Create A New Account</string>
+    <string name="sign_in_string">Sign in</string>
+    <string name="flukey_ek1_string">Flukey</string>
+</resources>
