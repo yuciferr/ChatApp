@@ -16,4 +16,5 @@
     <string name="create_a_new_account_string">Create A New Account</string>
     <string name="sign_in_string">Sign in</string>
     <string name="flukey_ek1_string">Flukey</string>
+    <string name="todo">TODO</string>
 </resources>

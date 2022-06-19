@@ -26,6 +26,7 @@ public class SignIn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().hide();
         super.onCreate(savedInstanceState);
         binding = ActivitySignInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -65,5 +66,9 @@ public class SignIn extends AppCompatActivity {
                 }
             }
         });
+
+        if(mAuth.getCurrentUser() != null){
+            startActivity(new Intent(SignIn.this, MainActivity.class));
+        }
     }
 }
