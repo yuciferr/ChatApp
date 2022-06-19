@@ -8,19 +8,19 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/btnSignUp"
         android:layout_width="350dp"
         android:layout_height="55dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/rectangle_1_ek3_shape"
         android:text="Sign Up"
+        android:textColor="@color/_bg__sign_up_ek2_color"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/_bg__sign_up_ek2_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
@@ -29,22 +29,24 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/rectangle_1_ek4_shape"
         android:text="Sign Up With Google"
-        android:textSize="18sp"
         android:textColor="@color/black"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/txtName"
         android:layout_width="350dp"
         android:layout_height="55dp"
         android:layout_marginTop="75dp"
-        android:padding="20dp"
         android:background="@drawable/rectangle_1_ek11_shape"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,32 +54,36 @@
         tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/name2"
+        android:id="@+id/txtEmail"
         android:layout_width="350dp"
         android:layout_height="55dp"
-        android:padding="20dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/rectangle_1_ek11_shape"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
 
     <EditText
-        android:id="@+id/name3"
+        android:id="@+id/txtPassword"
         android:layout_width="350dp"
         android:layout_height="55dp"
-        android:layout_marginTop="50dp"
-        android:padding="20dp"
+        android:layout_marginTop="40dp"
         android:background="@drawable/rectangle_1_ek11_shape"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -94,7 +100,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="47dp"
+        android:layout_marginStart="43dp"
         android:layout_marginEnd="294dp"
         android:layout_marginBottom="6dp"
         android:clickable="false"
@@ -102,9 +108,25 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintBottom_toTopOf="@+id/txtName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/acc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="40dp"
+        android:clickable="false"
+        android:text="I Have An Account"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
 
     <TextView
         android:id="@+id/textView3"
@@ -118,7 +140,7 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/name2"
+        app:layout_constraintBottom_toTopOf="@+id/txtEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -134,7 +156,7 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/name3"
+        app:layout_constraintBottom_toTopOf="@+id/txtPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
