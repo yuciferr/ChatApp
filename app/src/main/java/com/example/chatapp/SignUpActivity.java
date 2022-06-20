@@ -12,6 +12,12 @@ import android.widget.Toast;
 
 import com.example.chatapp.Models.Users;
 import com.example.chatapp.databinding.ActivitySignUpBinding;
+import com.google.android.gms.auth.api.identity.BeginSignInRequest;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.OnCompleteListener;
 
 import com.google.android.gms.tasks.Task;
@@ -27,6 +33,9 @@ public class SignUpActivity extends AppCompatActivity {
     FirebaseDatabase database;
     ProgressDialog progressDialog;
 
+    GoogleSignInOptions gso;
+    GoogleSignInClient gsc;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +50,15 @@ public class SignUpActivity extends AppCompatActivity {
         progressDialog.setTitle("Signing Up");
         progressDialog.setMessage("Please wait...");
 
+        gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestEmail()
+                .build();
+
+        gsc = GoogleSignIn.getClient(this, gso);
+
+        binding.button3.setOnClickListener(v -> {
+            SignIn();
+        });
 
         binding.btnSignUp.setOnClickListener(v -> {
             if (!binding.txtEmail.getText().toString().isEmpty() && !binding.txtPassword.getText().toString().isEmpty() && !binding.txtName.getText().toString().isEmpty()) {
@@ -76,5 +94,26 @@ public class SignUpActivity extends AppCompatActivity {
             Intent intent = new Intent(SignUpActivity.this, SignIn.class);
             startActivity(intent);
         });
+    }
+
+    public void SignIn() {
+        Intent signInIntent = gsc.getSignInIntent();
+        startActivityForResult(signInIntent, 101);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 101) {
+            Task<GoogleSignInAccount> task = GoogleSignIn.getSignedInAccountFromIntent(data);
+            try{
+                task.getResult(ApiException.class);
+
+                finish();
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            }catch (ApiException e){
+                Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+            }
+        }
     }
 }

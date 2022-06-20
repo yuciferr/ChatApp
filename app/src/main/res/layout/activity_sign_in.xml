@@ -26,13 +26,13 @@
         android:id="@+id/txtEmail"
         android:layout_width="350dp"
         android:layout_height="55dp"
-        android:layout_marginTop="75dp"
-        android:padding="20dp"
-        android:textSize="14sp"
-        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
         android:background="@drawable/rectangle_1_ek11_shape"
         android:ems="10"
         android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,14 +57,14 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="370dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo2" />
+        app:srcCompat="@drawable/loggo" />
 
     <TextView
         android:id="@+id/textView"
@@ -118,6 +118,7 @@
         android:id="@+id/imageView"
         android:layout_width="195dp"
         android:layout_height="215dp"
+        android:layout_marginBottom="-5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@drawable/_6407958_1" />
