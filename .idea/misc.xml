@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/_bg__login_ek2_shape.xml" value="0.1565" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/_bg__sign_up_ek2_shape.xml" value="0.1565" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/bg_reader.xml" value="0.1745" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/bg_writer.xml" value="0.1745" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ellipse_1_ek1_shape.xml" value="0.1565" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ellipse_1_shape.xml" value="0.1565" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1745" />
@@ -17,10 +19,18 @@
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/rectangle_1_ek6_shape.xml" value="0.1565" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/rectangle_1_ek8_shape.xml" value="0.1565" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/drawable/rectangle_1_ek9_shape.xml" value="0.1565" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_chat.xml" value="0.264" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_chat_detail.xml" value="0.264" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_profile.xml" value="0.25" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/activity_splash.xml" value="0.24293785310734464" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_chats.xml" value="0.25" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/fragment_contacts.xml" value="0.25" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/reader_bubble.xml" value="0.4" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/user_show.xml" value="0.264" />
+        <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/layout/writer_bubble.xml" value="0.176" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/menu/menu.xml" value="0.18671875" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/yusuf/AndroidStudioProjects/ChatApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
