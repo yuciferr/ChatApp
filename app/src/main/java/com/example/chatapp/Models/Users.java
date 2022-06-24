@@ -78,4 +78,17 @@ public class Users {
     public void setLastMessage(String lastMessage) {
         this.lastMessage = lastMessage;
     }
+
+    @Override
+    public String toString() {
+        return "Users{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", image='" + image + '\'' +
+                ", status='" + status + '\'' +
+                ", userId='" + userId + '\'' +
+                ", lastMessage='" + lastMessage + '\'' +
+                '}';
+    }
 }

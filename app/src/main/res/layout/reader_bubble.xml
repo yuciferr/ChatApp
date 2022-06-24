@@ -16,17 +16,12 @@
         android:layout_height="wrap_content"
         android:textColor="@color/name_color"
         android:layout_marginBottom="3dp"
-        android:layout_marginRight="18dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:padding="5dp"
         android:inputType="textLongMessage|textMultiLine"
         android:textSize="16sp"
-        android:text="This is a long  This is a longThis is a longa lo
-        ngThis is a longThis is a lonhis is a long  This is a longThis is a longa longThis is
-        a longThis is a lhis is a long  This is a longThis is a longa longThis is a longThis is a
-        lgThis is a long  This is a longThis is a lThis is a long  This is a longThis is a longa lo
-        ngThis is a longThis is a lonhis is a long  This is a longThis is a longa longThis is
-        a longThis is a lhis is a long  This is a longThis is a longa longThisonga longThis is a longThis is a lonhis is a long  This is a longThi
-        s is a longa longThis is a longThis is a lhis is a long  This is a longThis is a longa longThis is a longThis is a lg"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         android:maxWidth="300dp"
         android:minWidth="50dp"
         app:layout_constraintBottom_toTopOf="@id/receiverTime"

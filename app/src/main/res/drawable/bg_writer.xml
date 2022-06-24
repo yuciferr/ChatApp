@@ -53,7 +53,7 @@
             android:startColor="#D85353"
             android:centerColor="#BD175A"
             android:endColor="#D85353"  />
-        <corners android:bottomRightRadius="0dp" android:radius="60dp" />
+        <corners android:bottomRightRadius="0dp" android:radius="50dp" />
     </shape>
 </item>
 
