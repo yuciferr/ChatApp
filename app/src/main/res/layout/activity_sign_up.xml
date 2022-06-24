@@ -14,7 +14,7 @@
         android:layout_marginTop="60dp"
         android:background="@drawable/rectangle_1_ek3_shape"
         android:text="Sign Up"
-        android:textColor="@color/_bg__sign_up_ek2_color"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

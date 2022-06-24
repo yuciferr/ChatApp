@@ -2,6 +2,6 @@
 <!-- _bg__login_ek2 from your XD file. -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
 	android:shape="rectangle" >
-	<solid android:color="@color/_bg__sign_up_ek2_color" />
+	<solid android:color="@color/white" />
 </shape>
 

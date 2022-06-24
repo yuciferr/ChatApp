@@ -1,20 +1,60 @@
-<?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <rotate
-            android:fromDegrees="45"
-            android:pivotX="100%"
-            android:pivotY="0%"
-            android:toDegrees="0" >
-            <shape android:shape="rectangle" >
-                <solid android:color="#D85353" />
-            </shape>
-        </rotate>
-    </item>
-    <item android:right="16dp">
-        <shape android:shape="rectangle" >
-            <solid android:color="#D85353" />
-            <corners android:radius="20dp" />
-        </shape>
-    </item>
+
+<!--Shadow Layer-->
+
+
+<item android:right="10dp">
+    <shape android:shape="rectangle">
+        <corners android:radius="100dp" />
+        <padding
+            android:bottom="1px"
+            android:left="1px"
+            android:right="1px" />
+        <solid android:color="#01000000" />
+    </shape>
+</item>
+
+<!--===============-->
+
+
+<item android:right="10dp">
+    <shape android:shape="rectangle">
+        <corners android:radius="100dp" />
+        <padding android:bottom="1px" />
+        <solid android:color="#09000000" />
+    </shape>
+</item>
+
+<!--===============-->
+
+
+<item android:right="10dp">
+    <shape android:shape="rectangle">
+        <corners android:radius="100dp" />
+        <padding
+            android:bottom="1px"
+            android:left="1px"
+            android:right="1px" />
+        <solid android:color="#10000000" />
+    </shape>
+</item>
+
+<!--===============-->
+
+
+<!--ForeGround-->
+
+
+<item android:right="10dp">
+    <shape android:shape="rectangle">
+        <gradient
+            android:type="linear"
+            android:angle="45"
+            android:startColor="#D85353"
+            android:centerColor="#BD175A"
+            android:endColor="#D85353"  />
+        <corners android:bottomRightRadius="0dp" android:radius="60dp" />
+    </shape>
+</item>
+
 </layer-list>

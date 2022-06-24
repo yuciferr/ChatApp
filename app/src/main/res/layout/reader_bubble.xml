@@ -6,19 +6,28 @@
 
     android:layout_margin="7dp"
     android:background="@drawable/bg_reader"
-    android:maxHeight="400dp"
-    android:maxWidth="310dp"
+    android:maxHeight="600dp"
+    android:maxWidth="330dp"
     android:minHeight="30dp">
 
     <TextView
         android:id="@+id/receiverMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
+        android:textColor="@color/name_color"
+        android:layout_marginBottom="3dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="18dp"
         android:inputType="textLongMessage|textMultiLine"
         android:textSize="16sp"
-        android:text="This is a long  This is a longThis is a longThis is a longThis is a longThis is a long"
-        android:maxWidth="270dp"
+        android:text="This is a long  This is a longThis is a longa lo
+        ngThis is a longThis is a lonhis is a long  This is a longThis is a longa longThis is
+        a longThis is a lhis is a long  This is a longThis is a longa longThis is a longThis is a
+        lgThis is a long  This is a longThis is a lThis is a long  This is a longThis is a longa lo
+        ngThis is a longThis is a lonhis is a long  This is a longThis is a longa longThis is
+        a longThis is a lhis is a long  This is a longThis is a longa longThisonga longThis is a longThis is a lonhis is a long  This is a longThi
+        s is a longa longThis is a longThis is a lhis is a long  This is a longThis is a longa longThis is a longThis is a lg"
+        android:maxWidth="300dp"
         android:minWidth="50dp"
         app:layout_constraintBottom_toTopOf="@id/receiverTime"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,20 +39,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/name_color"
         android:id="@+id/receiverTime"
         android:layout_margin="4dp"
-        android:paddingRight="8dp"
+        android:paddingLeft="7dp"
         android:text="12.25"
         android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         />
 
     <androidx.constraintlayout.widget.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="16dp"
+        app:layout_constraintGuide_begin="20dp"
         android:id="@+id/guideline" />
 
 

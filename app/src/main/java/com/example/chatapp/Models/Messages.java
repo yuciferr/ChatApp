@@ -49,6 +49,4 @@ public class Messages {
     public void setMessageId(String messageId) {
         this.messageId = messageId;
     }
-
-
 }
